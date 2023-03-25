@@ -8,9 +8,6 @@
         padding-top: 96px;
     }
 
-    .list-photo {
-    }
-
     .images-team {
         width: calc((100% - 24px) / 2)
     }
@@ -20,6 +17,5 @@
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
            url(../images/Dark-bg-tab-2x.jpg);
     }
-    
-}
+    }
 }
