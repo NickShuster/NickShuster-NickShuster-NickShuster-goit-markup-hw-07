@@ -1,0 +1,30 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1158px;
+    }
+    .sectoin-team {
+       padding-bottom: 120px;
+       padding-top: 120px;
+    } 
+    .list-photo {
+       display: flex;
+       flex-direction: row;
+    }   
+
+    .images-team{
+        width: calc((100% - 48px) / 4);
+    }
+
+    @media (min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+    .hero-section{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+           url(../images/Dark-bg-des-2x.jpg);
+    }
+    
+}
+}
+
+
+
+
+

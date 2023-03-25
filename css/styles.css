@@ -18,7 +18,8 @@ height: auto;
 }
 
 .container{
-    max-width: 1158px;
+    width: 100%;
+    /* max-width: 1158px; */
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -67,13 +68,19 @@ text-decoration: none;
 
 .section-iteams {
     text-align: center;
-    width: calc((100%-48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
+.list-photo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+}
 
 .images-team {
     text-align: center;
-    width: calc((100%-48px) / 4);
+    width: 100%;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -169,6 +176,14 @@ color: #404BBF;
     background-size: cover;
 }
 
+@media (min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
+    .hero-section{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+           url(../images/Dark-bg-mob-2x.);
+    }
+    
+}
+
 .section-text{
     padding: 120px 0;
 }
@@ -180,7 +195,8 @@ color: #404BBF;
 
 .section-team{
    background: #F4F4FD;
-   padding-bottom: 110px;
+   padding-bottom: 96px;
+   padding-top: 96px;
 }
 
 .team-social-list {
@@ -433,7 +449,7 @@ background-color: #404BBF;
         width: 162px;
         margin: 0 auto;
         margin-bottom: 72px;
-        padding-top: 120px;
+        /* padding-top: 120px; */
 }
 
 .name-employees {
@@ -460,12 +476,6 @@ background-color: #404BBF;
 .main-text {
     font-weight: 400;
     color: #434455;
-}
-
-.list-photo {
-    display: flex;
-    gap: 24px;
-    align-items: center;
 }
 
 .name-iteams {
