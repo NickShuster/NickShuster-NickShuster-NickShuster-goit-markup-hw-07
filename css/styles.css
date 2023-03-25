@@ -355,12 +355,14 @@ background-color: #404BBF;
     text-transform: uppercase;
     color: #F4F4FD;
     margin-bottom: 16px;
+    margin-left: 155px;
 }
 
 .footer-content {
         font-weight: 400;
         color: #E7E9FC;
         width: 264px;
+        margin-left: 80px;
 }
 
 .footer {
@@ -376,13 +378,15 @@ background-color: #404BBF;
      letter-spacing: 0.02em;
      color: #FFFFFF;
      margin-bottom: 16px;
+     margin-left: 160px;
 }
 
 .social-foter-list {
     display: flex;
     /* justify-content: center; */
     gap: 16px;
-}
+    margin-left: 110px;
+    }
 
 .social-item-footer {
     width: 40px;

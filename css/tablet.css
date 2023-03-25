@@ -12,6 +12,44 @@
         width: calc((100% - 24px) / 2)
     }
 
+        .footer-logotype {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+    margin-bottom: 16px;
+    margin-left: 0;
+    }
+
+    .footer-content {
+        font-weight: 400;
+        color: #E7E9FC;
+        width: 264px;
+        margin-left: 0px;
+   }
+
+   .title-text-footer {
+       font-family: 'Roboto';
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 1.5;
+       letter-spacing: 0.02em;
+       color: #FFFFFF;
+       margin-bottom: 16px;
+       margin-left: 0px;
+   }
+   .social-foter-list {
+       display: flex;
+       /* justify-content: center; */
+       gap: 16px;
+       margin-left: 0px;
+   }
+
     @media (min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
     .hero-section{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
