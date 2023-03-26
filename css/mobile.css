@@ -25,7 +25,10 @@
         max-width: 264px;
     }
 }
-   
+     .list-iteam {
+        width: 100%;
+     }
+
         .social-media-title {
         margin-top: 72px;
 }

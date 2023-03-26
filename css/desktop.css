@@ -88,6 +88,43 @@
      margin-left: 0px;
 }
 
+.contact-form-btn {
+    background: #4D5AE5;
+    border-color: #4D5AE5;
+    border-radius: 4px;
+    max-width: 165px;
+    max-height: 40px;
+    padding: 8px 24px;
+    margin-left: 0px;
+    margin-top: 0px;
+    gap: 16px;
+    margin-left: 24px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-form {
+    display: flex;
+}
+
+.contact-form-input {
+    min-width: 264px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding-left: 8px;
+    outline: none;
+}
+
+.list-items {
+    width: calc((100% - 72px) / 4);
+}
+
+.list-two {
+    display: flex;
+}
+
 .social-foter-list {
     display: flex;
     /* justify-content: center; */
