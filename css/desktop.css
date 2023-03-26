@@ -16,6 +16,12 @@
         color: #434455;
         margin-bottom: 72px;
 }
+.team-social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 32px;
+}
 
     .list-two {
     display: flex;

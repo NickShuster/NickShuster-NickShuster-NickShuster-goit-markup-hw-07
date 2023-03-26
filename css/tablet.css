@@ -114,6 +114,13 @@
        row-gap: 72px;
    }
 
+   .team-social-list {
+       display: flex;
+       justify-content: center;
+       gap: 24px;
+       padding-bottom: 32px;
+   }
+
     @media (min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
     .hero-section{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -122,7 +129,7 @@
     }
 }
 
-@media screen and (min-width: 768px),(max-width: 1199px) {
+@media screen and (min-width: 768px) {
        .list-items {
        width: calc((100% - 24px) / 2);
    }
