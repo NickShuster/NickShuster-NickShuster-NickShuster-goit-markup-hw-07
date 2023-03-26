@@ -39,6 +39,19 @@
             gap: 16px;
             padding-bottom: 32px;
           }
+
+          .contact-form-input {
+        min-width: 398px;
+        height: 40px;
+        background-color: transparent;
+        border: 1px solid #FFFFFF;
+        color: #FFFFFF;
+        border-radius: 4px;
+        padding-left: 8px;
+        outline: none;
+        opacity: 0.3;
+         }
+          
 }
 
 @media screen and (min-width:480px),(max-width: 767px) {
