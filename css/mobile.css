@@ -18,6 +18,21 @@
             }
         }
       }
+      
+          .section-list-element {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              padding: 0px;
+              gap: 24px;
+          }
+    
+          .section-link-element {
+              /* width: 168px; */
+              width: calc((100% - 24px) / 2);
+              height: 88px;
+    
+          }
 }
 
 @media screen and (min-width:480px),(max-width: 767px) {
@@ -25,6 +40,8 @@
         max-width: 264px;
     }
 }
+
+
      .list-iteam {
         width: 100%;
      }
