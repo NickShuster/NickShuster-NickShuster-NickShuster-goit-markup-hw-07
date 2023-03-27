@@ -94,6 +94,35 @@
     margin-top: 0;
     }
 
+    .logotype{
+        font-family: 'Raleway',sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.5;  
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2E2F42;
+        margin-right: 76px;
+}
+
+        .header-nav-wrap {
+            background-color: transparent;
+            width: unset;
+            height: unset;
+            position: static;
+            padding: 0;
+        }
+        
+        .header-btn-mobile-close {
+            display: none;
+        }
+
+        .header-btn-mobile {
+            display: none;
+         }
+
     .images-team{
         width: calc((100% - 72px) / 4 );
     }
@@ -132,6 +161,25 @@
 .social-media-title {
     margin-left: 120px;
     margin-top: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.adress {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.menu-item {
+    margin-bottom: 0;
 }
 
 .section-list-element {
