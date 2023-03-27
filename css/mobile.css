@@ -33,6 +33,14 @@
     
           }
 
+          .team-social-last {
+            display: flex;
+            justify-content: center;
+            gap: 56px;
+            padding-bottom: 32px;
+            padding-top: 48px;
+          }
+
           .team-social-list {
              display: flex;
             justify-content: center;

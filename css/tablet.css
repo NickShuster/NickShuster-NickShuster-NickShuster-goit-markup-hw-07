@@ -97,6 +97,12 @@
        height: 88px;
 
    }
+   
+   .team-social-last {
+    position: absolute;
+    top: auto;
+    left: -100%;
+   }
 
    .address-list {
     display: block;
