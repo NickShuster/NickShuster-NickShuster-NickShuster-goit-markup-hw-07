@@ -34,6 +34,10 @@
     outline: none;
 }
 
+   .team-social-list {
+       display: flex;
+   }
+
 .contact-form-btn {
     background: #4D5AE5;
     border-color: #4D5AE5;
@@ -100,11 +104,6 @@
             gap: 16px;
         }
 
-    .social-media-title {
-        margin-left: 120px;
-        margin-top: 0;
-    }
-
         .footer-content {
         font-weight: 400;
         color: #E7E9FC;
@@ -124,11 +123,15 @@
 }
 
 .footer-social {
-    display: flex;
+       width: 100%;
+       display: flex;
+       flex-direction: unset;
+       flex-wrap: nowrap;
 }
 
 .social-media-title {
     margin-left: 120px;
+    margin-top: 0px;
 }
 
 .section-list-element {
@@ -196,10 +199,6 @@
     margin-bottom: 16px;
     margin-left: 0;
     }
-    
-    .footer-social {
-    display: flex;
-     }
 
     .contact-title {
        font-weight: 500;

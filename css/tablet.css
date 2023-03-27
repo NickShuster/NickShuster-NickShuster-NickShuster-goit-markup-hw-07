@@ -138,11 +138,23 @@
         display: block;
     }
 
+        .social-media-title{
+            margin-top: 0;
+            margin-left: 24px;
+        }
+
    .team-social-list {
        display: flex;
        justify-content: center;
        gap: 24px;
        padding-bottom: 32px;
+   }
+
+   .footer-social {
+       width: 565px;
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
    }
 
     @media (min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {

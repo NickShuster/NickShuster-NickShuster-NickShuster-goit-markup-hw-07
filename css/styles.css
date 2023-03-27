@@ -366,15 +366,6 @@ background-color: #404BBF;
     background: #31D0AA;
 }
 
-.footer-social {
-    /* display: flex; */
-}
-
-.social-media-title {
-    /* margin-left: 120px; */
-    /* margin-top: 72px; */
-}
-
 .paragraph-elements {
         font-size: 20px;
         line-height: 1.2;
@@ -384,10 +375,6 @@ background-color: #404BBF;
 
 .list-items {
 width: 100%;
-}
-
-.list-two {
-     
 }
 
 .text-elements {
@@ -415,7 +402,6 @@ width: 100%;
         width: 162px;
         margin: 0 auto;
         margin-bottom: 72px;
-        /* padding-top: 120px; */
 }
 
 .name-employees {
@@ -754,8 +740,6 @@ transform: translateY(0);
 }
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
     width: 100%;
 }
 
