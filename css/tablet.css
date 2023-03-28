@@ -91,6 +91,12 @@
        gap: 24px;
    }
 
+   .header-container {
+    width: 100%;
+       display: flex;
+       align-items: center;
+   }
+
    .section-link-element {
        width: 168px;
        width: calc((100% - 48px)  / 3);
@@ -99,9 +105,7 @@
    }
    
    .team-social-last {
-    position: absolute;
-    top: auto;
-    left: -100%;
+    visibility: hidden;
    }
 
    .address-list {

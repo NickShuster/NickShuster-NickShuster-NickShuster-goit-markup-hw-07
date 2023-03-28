@@ -35,9 +35,9 @@ text-decoration: none;
 
 .section-three {
     text-align: center;
-     padding-bottom: 120px;
-        position: absolute;
-            visibility: hidden
+    padding-bottom: 120px;
+    position: absolute;
+    visibility: hidden ;
 }
 
 .navigation {
@@ -88,16 +88,16 @@ color: #404BBF;
 }
 
 .contact-phone-number{
-            font-weight: 400;
-            color: #434455;
-            font-style:normal;
-            transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
+ color: #434455;
+ font-style:normal;
+ transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-container {
+/* .header-container {
     display: flex;
     align-items: center;
-}
+} */
 
 .logo{
   color: #4D5AE5;
@@ -740,6 +740,10 @@ transform: translateY(0);
         color: #FFFFFF;
 }
 
+.team-social-last {
+visibility: hidden;
+}
+
 .contact-form-btn {
     background: #4D5AE5;
     border-color: #4D5AE5;
@@ -786,4 +790,7 @@ transform: translateX(0);
 
 .contacts-and-email {
 margin-top: auto;
+}
+
+.header-btn-mobile {
 }

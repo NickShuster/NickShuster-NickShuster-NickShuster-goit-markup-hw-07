@@ -29,10 +29,11 @@
 
 
 
-          .header-container {
-          display: flex;
-          align-items: center;
-         }
+        .header-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        }
     
           .section-link-element {
               width: calc((100% - 24px) / 2);
@@ -46,6 +47,7 @@
             gap: 56px;
             padding-bottom: 32px;
             padding-top: 48px;
+            visibility: unset;
           }
 
           .team-social-list {
