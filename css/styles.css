@@ -55,12 +55,12 @@ text-decoration: none;
     width: calc((100% - 48px) / 3);
 }
 
-.list-photo {
+/* .list-photo {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     align-items: center;
-}
+} */
 
 .images-team {
     text-align: center;
@@ -92,6 +92,22 @@ color: #404BBF;
  color: #434455;
  font-style:normal;
  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-nav-wrap {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 24px 24px 24px 40px;
+    z-index: 999;
+    transform: translateX(100%);
+}
+
+.header-nav-wrap.is-open {
+    transform: translateX(0%);
 }
 
 /* .header-container {
@@ -130,9 +146,9 @@ color: #404BBF;
     background-size: cover;
 }
 
-.section-text{
+/* .section-text{
     padding: 96px 0;
-}
+} */
 
 .section-list-images {
     display: flex;
@@ -294,12 +310,12 @@ background-color: #404BBF;
     margin-left: 155px;
 }
 
-.footer-content {
+/* .footer-content {
         font-weight: 400;
         color: #E7E9FC;
         width: 264px;
         margin-left: 80px;
-}
+} */
 
 .footer {
     background: #2E2F42;
@@ -343,22 +359,15 @@ background-color: #404BBF;
     background: #31D0AA;
 }
 
-.paragraph-elements {
-        font-size: 20px;
-        line-height: 1.2;
-        font-weight: 700;
-        margin-bottom: 8px;
-}
-
 .list-items {
 width: 100%;
 }
 
-.text-elements {
+/* .text-elements {
         font-weight: 500;
         color: #434455;
         margin-bottom: 72px;
-}
+} */
 
 .name-employees {
     padding-top: 32px;
@@ -372,14 +381,14 @@ width: 100%;
         margin-bottom: 72px;
 }
 
-.text-out-team {
+/* .text-out-team {
         font-size: 36px;
         line-height: 1.11;
         text-transform: capitalize;
         width: 162px;
         margin: 0 auto;
         margin-bottom: 72px;
-}
+} */
 
 .name-employees {
         font-size: 20px;
@@ -740,9 +749,9 @@ transform: translateY(0);
         color: #FFFFFF;
 }
 
-.team-social-last {
+/* .team-social-last {
 visibility: hidden;
-}
+} */
 
 .contact-form-btn {
     background: #4D5AE5;
