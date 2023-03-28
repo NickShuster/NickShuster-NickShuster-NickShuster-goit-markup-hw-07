@@ -26,6 +26,13 @@
               padding: 0px;
               gap: 24px;
           }
+
+
+
+          .header-container {
+          display: flex;
+          align-items: center;
+         }
     
           .section-link-element {
               width: calc((100% - 24px) / 2);
@@ -88,6 +95,8 @@
        top: 0;
        right: 0;
        padding: 24px 24px 24px 40px;
+       z-index: 999;
+       transform: translateX(100%);
    }
 
    .header-btn-mobile-close {
@@ -101,6 +110,9 @@
 @media screen and (min-width:480px) and (max-width: 767px) {
     .container-sm {
         max-width: 264px;
+        display: flex;
+        flex-direction: column;
+        
     }
 }
 

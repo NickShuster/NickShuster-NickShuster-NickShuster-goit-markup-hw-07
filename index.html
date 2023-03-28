@@ -30,10 +30,19 @@
         <a class="logotype" href="./index.html">
           <span class="logo">Web</span>Studio</a
         >
-        <button type="button" js-open-menu class="header-btn-mobile">+</button>
-        <div js-menu-container class="header-nav-wrap">
-          <button type="button" js-close-menu class="header-btn-mobile-close">
-            x
+        <button
+          type="button"
+          class="header-btn-mobile js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          +
+        </button>
+        <div class="header-nav-wrap js-menu-container">
+          <button type="button" class="header-btn-mobile-close js-close-menu">
+            <svg class="icon-modal-btn" width="8" height="8">
+              <use href="./images/symbol-defs1.svg#icon-vector"></use>
+            </svg>
           </button>
           <nav class="navigation">
             <ul class="menu list">
@@ -48,8 +57,9 @@
               </li>
             </ul>
           </nav>
-          <address class="contacts-address">
-            <div class="address-container">
+          <div class="contacts-and-email">
+            <address class="contacts-address">
+              <ul class="address-list">
                 <li class="address-link">
                   <a
                     class="contact-email adress"
@@ -63,7 +73,8 @@
                   >
                 </li>
               </ul>
-          </address>
+            </address>
+          </div>
           <ul class="team-social-last">
             <li class="team-social-item">
               <a href="" class="team-social-link">
@@ -542,6 +553,12 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
-    <script src="./js/mobile-menu.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
