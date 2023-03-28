@@ -163,6 +163,10 @@
        height: 88px;
 
    }
+
+   .home {
+       visibility: unset;
+   }
    
    .team-social-last {
     visibility: hidden;

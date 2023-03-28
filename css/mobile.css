@@ -136,6 +136,10 @@
         margin-bottom: 8px;
    }
 
+   .home{
+    visibility: hidden;
+   }
+
    .header-nav-wrap {
        background-color: #FFFFFF;
        width: 100%;
