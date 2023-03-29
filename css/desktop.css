@@ -136,11 +136,7 @@
 }
 
         .header-nav-wrap {
-            background-color: transparent;
-            width: unset;
-            height: unset;
-            position: static;
-            padding: 0;
+            display: none;
         }
         
         .header-btn-mobile-close {
@@ -206,10 +202,6 @@ body {
     font-size: 16px;
 }
 
-.home {
-    visibility: unset;
-}
-
 .menu-item {
     margin-bottom: 0;
 }
@@ -223,7 +215,13 @@ body {
 }
 
 .address-list {
+    display: flex;
     gap: 40px;
+}
+
+.contacts-address {
+    margin-left: auto;
+    display: flex;
 }
 
 .menu {
@@ -261,7 +259,6 @@ body {
 
 .social-foter-list {
     display: flex;
-    /* justify-content: center; */
     gap: 16px;
     margin-left: 0px;
 }

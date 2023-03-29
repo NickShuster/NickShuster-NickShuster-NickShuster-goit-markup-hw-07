@@ -65,19 +65,7 @@
    }
 
       .header-nav-wrap {
-       background-color: #FFFFFF;
-       width: 0%;
-       height: 0;
-       position: absolute;
-       top: 0;
-       right: 0;
-       padding: 24px 24px 24px 40px;
-       z-index: 999;
-       transform: translateX(100%);
-   }
-
-   .header-nav-wrap.is-open {
-    transform: translateX(0%);
+        display: none;
    }
 
    .title-text-footer {
@@ -163,10 +151,6 @@
        height: 88px;
 
    }
-
-   .home {
-       visibility: unset;
-   }
    
    .team-social-last {
     visibility: hidden;
@@ -192,6 +176,11 @@
        position: absolute;
        left: 0;
        bottom: -29px;
+   }
+
+   .contacts-address {
+       margin-left: auto;
+       display: flex;
    }
 
    .menu {
