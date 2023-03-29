@@ -64,9 +64,21 @@
         margin-bottom: 8px;
    }
 
-      .header-nav-wrap {
-        display: none;
-   }
+.address-none {
+    display: none;
+}
+
+.header-nav-wrap {
+    display: none;
+}
+
+.address-list-none {
+display: none;
+}
+
+      .menu-none {
+       display: none;
+      }
 
    .title-text-footer {
        font-family: 'Roboto';
@@ -236,16 +248,6 @@
         .social-media-title{
             margin-top: 0;
             margin-left: 24px;
-        }
-
-        .header-nav-wrap {
-            background-color: transparent;
-            width: unset;
-            height: unset;
-            position: static;
-            padding: 0;
-            display: flex;
-            align-items: center;
         }
 
         .header-btn-mobile-close {

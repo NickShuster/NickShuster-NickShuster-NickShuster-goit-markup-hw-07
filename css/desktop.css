@@ -277,6 +277,14 @@ body {
     margin-left: 0;
     }
 
+    .menu-none {
+       display: none;
+      }
+
+      .address-none {
+    display: none;
+}
+
     .contact-title {
        font-weight: 500;
         font-size: 16px;
