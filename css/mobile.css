@@ -139,6 +139,11 @@
     transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.section-elements {
+    padding-bottom: 96px;
+    padding-top: 96px;
+}
+
        .menu {
        display: none;
    }
@@ -217,7 +222,7 @@
        padding: 24px 24px 24px 40px;
        z-index: 999;
        transform: translateX(100%);
-
+       transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
    }
 
    .header-nav-wrap.is-open {
